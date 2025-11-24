@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Budget Manager",
+  "version": "1.0",
+  "description": "Tracks your overall spendings",
+  "icons": {
+    "128": "icon128.png",
+    "48": "icon48.png",
+    "16": "icon16.png"
+  },
+  "action": {
+    "default_icon": "icon16.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": ["storage"],
+  "web_accessible_resources": [
+    {
+      "resources": ["jquery-3.7.1.min.js"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
